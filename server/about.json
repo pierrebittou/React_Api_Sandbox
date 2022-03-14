@@ -1,0 +1,32 @@
+{
+    " client ": {
+        " host ": "localhost"
+    } ,
+    " server ": {
+        " current_time ": 1638200746 ,
+        " services ": [{
+            " name ": " weather " ,
+            " widgets ": [{
+                " name ": " city_temperature " ,
+                " description ": " Display temperature for a city " ,
+                " params ": [{
+                    " name ": " city " ,
+                    " type ": " string "
+                }]
+            }]
+        } , {
+            " name ": " spotify " ,
+            " widgets ": [{
+                " name ": " playlist/artist " ,
+                " description ": " Displaying the list of the playlist/artist and play the musique " ,
+                " params ": [{
+                    " name ": " link " ,
+                    " type ": " string "
+                },{
+                " name ": " search " ,
+                " type ": " string "
+                }]
+            }]
+        }]
+    }
+}

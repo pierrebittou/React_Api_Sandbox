@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "firebase": "^9.6.8",
+    "react": "^16.8.0",
+    "react-google-button": "^0.7.2",
+    "react-router-dom": "^6.2.2",
+    "react-spring": "^9.4.4",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
