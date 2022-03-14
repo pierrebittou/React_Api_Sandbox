@@ -1,21 +1,27 @@
-## How to use.
 
-In the project directory, you can run:
+# React.js and Node.js sandbox
 
-### `docker-compose build`
+This is a sandbox for me to learn React.js and node.js
 
-You will have to make a docker-compose.yml file at the root of your project, which will describe the different
-docker services used.
-This file must include at least the Docker service server used to launch the application on port 8080 .
+In this repository, I will aim to create a service working like a dashboard that you can configure with widgets of your choice.
 
-### `docker-compose up`
+Theses widget will mpstly be displaying data from various API.
 
-The validation of the integrity of your application will be done when launching the docker-compose up request.
-The server service will run by exposing the port 8080
 
-### `about.json`
+## Deployment
 
-The server service will respond to the request http://localhost:8080/about.json .
-The json will explain the services, the widgets linked to them and even their parameters and parameters types.
+To deploy this project you can either use docker with :
 
-**Note: this project is still on dev.**
+```bash
+  docker-compose build && docker-compose up
+```
+
+You can also manually go into the 'client' or the 'server' folder and run :
+
+```bash
+  npm install && npm start
+```
+## Authors
+
+- [@pierrebittou](https://www.github.com/pierrebittou)
+
